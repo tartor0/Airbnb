@@ -107,6 +107,11 @@ nav{
     width: 140px;
     padding-left: 15px;
 }
+.straight-line{
+    background-color: rgb(197, 195, 195);
+    width: 1px;
+    height: 30px;
+}
 .thre{
     display: flex;
     flex-direction: column;
@@ -127,7 +132,7 @@ nav{
     /* background-color: brown; */
 }
 .fou p{
-    width: 230px;
+    width: 236px;
     padding-left: 20px;
 }
 .fou button{
