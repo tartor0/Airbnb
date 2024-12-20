@@ -1,0 +1,690 @@
+@font-face {
+    font-family: "myFont";
+    src: url(assets/AirbnbCereal_W_Md.otf);
+}
+@font-face {
+    font-family: "Font";
+    src: url(assets/AirbnbCereal_W_Bk.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "myFont";
+}
+p{
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+.container{
+    padding-top: 30px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    top: 0;
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.top a{
+    color: red;
+}
+.top2{
+    display: flex;
+    border-radius: 50px;
+    height: 70px;
+    justify-self: center;
+    align-items: center;
+    width: 850px;
+    box-shadow: 0px 1px 8px rgb(213, 213, 213);
+    background-color: white;
+}
+.small{
+    font-size: 12px;
+}
+.big{
+    font-size: 14px;
+}
+.top-text{
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    margin-left: 160px;
+}
+.top-2nd{
+    color: rgb(126,126,126);
+}
+.top-text2{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    font-size: 14px;
+}
+.on{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70px;
+    border-radius: 50px;
+}
+.on:hover{
+    background-color: rgb(235, 231, 231);
+}
+.on p{
+    padding-left: 30px;
+    width: 280px;
+}
+.tw{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    height: 70px;
+}
+.tw:hover{
+    background-color: rgb(235, 231, 231);
+}
+.thre:hover{
+    background-color: rgb(235, 231, 231);
+}
+.fou:hover{
+    background-color: rgb(235, 231, 231);
+}
+.tw p{
+    width: 140px;
+    padding-left: 15px;
+}
+.thre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    height: 70px;
+}
+.thre p{
+    width: 140px;
+    padding-left: 15px;
+}
+.fou{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    border-radius: 50px;
+    /* background-color: brown; */
+}
+.fou p{
+    width: 230px;
+    padding-left: 20px;
+}
+.fou button{
+    background-color: rgb(255,56,92);
+    padding: 17px;
+    font-size: 16px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    position: relative;
+    left: -10px;
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    gap: 10px;
+    padding: 6px;
+    padding-left: 10px;
+    height: 45px;
+    border: 0.5px solid rgb(126,126,126);
+    font-size: 35px;
+    border-radius: 50px;
+}
+.list{
+    font-size: 20px;
+}
+.btn{
+    display: flex;
+}
+.top3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-container{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 150px;
+}
+.backgrd svg{
+    position: relative;
+    top: 15px;
+    left: 235px;
+}
+.backgrd{
+    background-image: url(assets/rio\ de\ janeiro.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    height: 260px;
+}
+.book-text{
+    color: gray;
+    font-family: Font;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.row{
+    color: black;
+    font-weight: 600;
+}
+.dollar{
+    color: black;
+    padding-top: 5px;
+}
+span{
+    font-weight: 600;
+}
+.first-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 400px;
+    gap: 25px;
+}
+.hidden svg{
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+.hidden{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    display: none;
+    border-radius: 50%;
+    width: fit-content;
+    margin-top: 80px;
+    margin-left: 230px;
+}
+.a:hover .hidden{
+    display: block;
+}
+.b:hover .hidden{
+    display: block;
+}
+.c:hover .hidden{
+    display: block;
+}
+.d:hover .hidden{
+    display: block;
+}
+.e:hover .hidden{
+    display: block;
+}
+.f:hover .hidden{
+    display: block;
+}
+.g:hover .hidden{
+    display: block;
+}
+.h:hover .hidden{
+    display: block;
+}
+.i:hover .hidden{
+    display: block;
+}
+.j:hover .hidden{
+    display: block;
+}
+.k:hover .hidden{
+    display: block;
+}
+.l:hover .hidden{
+    display: block;
+}
+.m:hover .hidden{
+    display: block;
+}
+.n:hover .hidden{
+    display: block;
+}
+.o:hover .hidden{
+    display: block;
+}
+.p:hover .hidden{
+    display: block;
+}
+.q:hover .hidden{
+    display: block;
+}
+.r:hover .hidden{
+    display: block;
+}
+.s:hover .hidden{
+    display: block;
+}
+.t:hover .hidden{
+    display: block;
+}
+.u:hover .hidden{
+    display: block;
+}
+.v:hover .hidden{
+    display: block;
+}
+.w:hover .hidden{
+    display: block;
+}
+.x:hover .hidden{
+    display: block;
+}
+.y:hover .hidden{
+    display: block;
+}
+.z:hover .hidden{
+    display: block;
+}
+.aa:hover .hidden{
+    display: block;
+}
+.ab:hover .hidden{
+    display: block;
+}
+.ac:hover .hidden{
+    display: block;
+}
+.ad:hover .hidden{
+    display: block;
+}
+.ae:hover .hidden{
+    display: block;
+}
+.af:hover .hidden{
+    display: block;
+}
+.ag:hover .hidden{
+    display: block;
+}
+.one{
+    background-image: url(assets/toulon.avif);
+}
+.two{
+    background-image: url(assets/glasgow.avif);
+}
+.three{
+    background-image: url(assets/hamburg.jpeg);
+}
+.four{
+    background-image: url(assets/florian.avif);
+}
+.second-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 400px;
+    gap: 25px;
+}
+.second-div .one{
+    background-image: url(assets/marrakesh.avif);
+}
+.second-div .two{
+    background-image: url(assets/tambon.jpeg);
+}
+.second-div .three{
+    background-image: url(assets/rio\ de\ janeiro.jpeg);
+}
+.second-div .four{
+    background-image: url(assets/gurugam\ india.jpeg);
+}
+
+.third-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 400px;
+    gap: 25px;
+    padding-bottom: 50px;
+}
+.third-div .one{
+    background-image: url(assets/praia.jpg);
+}
+.third-div .two{
+    background-image: url(assets/mumbai.jpeg);
+}
+.third-div .three{
+    background-image: url(assets/arraial.jpg);
+}
+.third-div .four{
+    background-image: url(assets/cadeo.jpg);
+}
+
+
+.fourth-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 400px;
+    gap: 25px;
+}
+.fourth-div .one{
+    background-image: url(assets/toronto.jpeg);
+}
+.fourth-div .two{
+    background-image: url(assets/santos.jpeg);
+}
+.fourth-div .three{
+    background-image: url(assets/hamilton.jpg);
+}
+.fourth-div .four{
+    background-image: url(assets/bouc.jpg);
+}
+
+
+.fifth-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 400px;
+    gap: 25px;
+}
+.fifth-div .one{
+    background-image: url(assets/nicosia.jpeg);
+}
+.fifth-div .two{
+    background-image: url(assets/maragogi.jpg);
+}
+.fifth-div .three{
+    background-image: url(assets/toronto1.jpg);
+}
+.fifth-div .four{
+    background-image: url(assets/toronto2.jpg);
+}
+
+
+.sixth-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 400px;
+    gap: 25px;
+}
+.sixth-div .one{
+    background-image: url(assets/centro\ brazil.jpg);
+}
+.sixth-div .two{
+    background-image: url(assets/london\ uk.jpg);
+}
+.sixth-div .three{
+    background-image: url(assets/rio2.jpg);
+}
+.sixth-div .four{
+    background-image: url(assets/villetanuese.jpeg);
+}
+
+
+.seventh-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 400px;
+    gap: 25px;
+}
+.seventh-div .one{
+    background-image: url(assets/guarapi.jpg);
+}
+.seventh-div .two{
+    background-image: url(assets/marrakesh2.jpeg);
+}
+.seventh-div .three{
+    background-image: url(assets/mexico.jpeg);
+}
+.seventh-div .four{
+    background-image: url(assets/watthana.jpeg);
+}
+
+
+.eight-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 400px;
+    gap: 25px;
+}
+.eight-div .one{
+    background-image: url(assets/sanjose.jpeg);
+}
+.eight-div .two{
+    background-image: url(assets/marrakesh3.jpg);
+}
+.eight-div .three{
+    background-image: url(assets/paris2.jpg);
+}
+.eight-div .four{
+    background-image: url(assets/mexico2.jpeg);
+}
+
+
+.ninth-div{
+    display: grid;
+    grid-template-columns: 280px;
+    grid-template-rows: 370px;
+    gap: 25px;
+}
+.ninth-div .one{
+    background-image: url(assets/london\ 2.jpeg);
+}
+.grid{
+    border-radius: 10px;
+    background-image: url(assets/c67f78f1-5807-449a-9a88-753b7fa62d6a.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.star{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.text-container{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.text-container p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.text-container button{
+    font-size: 16px;
+    width: 140px;
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+
+footer{
+    background-color: rgb(247,247,247);
+    padding-top: 40px;
+}
+.future{
+    font-size: 23px;
+    font-weight: 100;
+    padding-bottom: 18px;
+}
+.line-footer{
+    display: flex;
+    gap: 21px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+}
+.top-foot{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.line-footer a{
+    color: gray;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 14px;
+}
+.line-footer .popular{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.flex-items{
+    padding-top: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+}
+.flex-items a{
+    font-family: Font;
+    text-decoration: none;
+    color: gray;
+    font-weight: 10;
+    font-size: 14px;
+}
+.flex-items .bold{
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+}
+.first-flex{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.second-flex{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.third-flex{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.third-flex .bold{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.third-flex .more:hover{
+    text-decoration: underline;
+}
+.flex-footer{
+    border-bottom: 0.1pt solid gray;
+}
+
+.last-div{
+    padding-top: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+}
+.end-footer{
+    display: grid;
+    font-family: Font;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 0.2pt solid rgb(155, 154, 154);
+    padding-bottom: 50px;
+}
+.end-footer a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 14px;
+}
+.end-footer a:hover{
+    text-decoration: underline;
+}
+.end-footer .bold:hover{
+    text-decoration: none;
+}
+.end-footer .bold{
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.hosting{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.airbnb{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+}
+.sec-one{
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.sec-one a{
+    text-decoration: none;
+    color: gray;
+}
+.sec-one a:hover{
+    text-decoration: underline;
+}
+.dot{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sec-two{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 15px;
+}
+.english{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sec-two a{
+    text-decoration: none;
+    color: black;
+}
+.svg{
+    display: flex;
+    gap: 15px;
+}
