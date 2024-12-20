@@ -112,6 +112,18 @@ nav{
     width: 1px;
     height: 30px;
 }
+.guestfav{
+    background-color: white;
+    width: 120px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: -10px;
+    cursor: pointer;
+}
 .thre{
     display: flex;
     flex-direction: column;
